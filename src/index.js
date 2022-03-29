@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import MgInstrument from './MgInstrument'
 import reportWebVitals from './reportWebVitals';
+import Piano from './Piano';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Piano/>
   </React.StrictMode>,
   document.getElementById('root')
 );
